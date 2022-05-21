@@ -16,12 +16,10 @@ public class P15_FileHandlingInJava
 {
     public static void main(String[] args) throws IOException
     {
-
         ABCDEF obj = new ABCDEF();
         obj.takeInputFromAFile();
         obj.saveOutputIntoAFile();
         obj.saveLogOfProgram();
-
     }
 }
 
