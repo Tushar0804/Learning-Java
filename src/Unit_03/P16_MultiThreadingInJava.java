@@ -38,7 +38,7 @@ class T1 extends Thread
     public void run()
     {
         try{
-            Thread.sleep(3);
+            Thread.sleep(5);
             System.out.println("T1 is done by now!");
         }
         catch (InterruptedException e)
